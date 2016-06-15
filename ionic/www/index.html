@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+
+      <ion-header-bar class="bar-positive">
+        <a href="javascript:void(0)" class="button button-clear icon ion-flash "></a>
+        <h1 class="title">Ionic1 Blank Starter</h1>
+        <a href="javascript:void(0)" class="button button-clear"> Botão header da direita</a>
+      </ion-header-bar>
+
+      <ion-header-bar class="bar-subheader bar-dark">
+        <h1 class="title">Ionic1 Blank Starter</h1>
+      </ion-header-bar>
+
+      <ion-content class="padding has-subheader">
+
+
+        <ion-list>
+          <ion-item>
+            Hello, {{item}}!
+          </ion-item>
+          <ion-item>
+            Hello, {{item}}!
+          </ion-item>
+        </ion-list>
+
+
+        <a href="javascript:void(0)" class="button button-assertive button-block ion-fork"> Meu primeiro botão</a>
+        <a href="javascript:void(0)" class="button button-energized"> Botão</a>
+
+      </ion-content>
+
+      <ion-tabs class="tabs-positive tabs-icon-top">
+
+        <ion-tab title="Home" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline">
+          <!-- Tab 1 content -->
+        </ion-tab>
+
+        <ion-tab title="About" icon-on="ion-ios-clock" icon-off="ion-ios-clock-outline">
+          <!-- Tab 2 content -->
+        </ion-tab>
+
+        <ion-tab title="Settings" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline">
+          <!-- Tab 3 content -->
+        </ion-tab>
+
+      </ion-tabs>
+
+
+
+      <!-- <ion-footer-bar class="bar-light">
+        <h1 class="title">Meu footer</h1>
+      </ion-footer-bar> -->
+
+
+    </ion-pane>
+  </body>
+</html>
