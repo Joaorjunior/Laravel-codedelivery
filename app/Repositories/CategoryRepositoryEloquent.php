@@ -15,6 +15,8 @@ use CodeDelivery\Validators\CategoryValidator;
 class CategoryRepositoryEloquent extends BaseRepository implements CategoryRepository
 {
 
+    protected $skipPresenter = true;
+
     public function lists1()
     {
         return $this->model->lists('name', 'id');

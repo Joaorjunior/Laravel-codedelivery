@@ -25,9 +25,8 @@ class CheckoutRequest extends Request
      */
     public function rules(HttpRequest $request)
     {
-        $rules = [
-          //  'cupom_code' => 'exists:cupoms, code, used, 0'
-        ];
+        $rules = ['cupom_code'=> 'exists:cupoms, code, used, 0'];
+
         $this->buildRulesItems(0, $rules);
         $items = $request->get('items', []);
         $items = !is_array($items)?[]:$items;

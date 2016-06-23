@@ -1,4 +1,4 @@
-<!-- Extende o app.blade.php e a seção content de app.blade.php para o index.blade.php -->
+<!-- Extende o app.blade.php e a seï¿½ï¿½o content de app.blade.php para o index.blade.php -->
 
 @extends('app')
 @section('content')
@@ -16,7 +16,7 @@
                 <th>Itens</th>
                 <th>Entregador</th>
                 <th>Status</th>
-                <th> Acao </th>
+                <th> AÃ§Ã£o </th>
             </tr>
             </thead>
 
